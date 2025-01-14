@@ -1,80 +1,27 @@
-# train-angular
-training to Angular
+# Angular55
 
-## คำอธิบาย
-คำอธิบายสั้น ๆ เกี่ยวกับโปรเจกต์ Angular ของคุณ ระบุวัตถุประสงค์และฟีเจอร์หลักของแอปพลิเคชัน
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
 
-## สารบัญ
-- [ฟีเจอร์](#ฟีเจอร์)
-- [การติดตั้ง](#การติดตั้ง)
-- [การใช้งาน](#การใช้งาน)
-- [คำสั่ง](#คำสั่ง)
-- [การพัฒนา](#การพัฒนา)
-- [สัญญาอนุญาต](#สัญญาอนุญาต)
+## Development server
 
-## การติดตั้ง
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-เพื่อเริ่มต้นโปรเจกต์ในเครื่องของคุณ ให้ทำตามขั้นตอนดังนี้:
+## Code scaffolding
 
-1. **โคลนรีโพสิทอรี:**
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-   ```bash
-   git clone <repository-url>
-   cd <project-folder>
-   ```
+## Build
 
-2. **ติดตั้ง Dependencies:**
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-   ```bash
-   npm install
-   ```
+## Running unit tests
 
-3. **รันเซิร์ฟเวอร์สำหรับพัฒนา:**
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-   ```bash
-   ng serve
-   ```
+## Running end-to-end tests
 
-## การใช้งาน
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-เพื่อรันแอปพลิเคชันในเบราว์เซอร์ของคุณ ให้ไปที่:
+## Further help
 
-```
-http://localhost:4200
-```
-
-ทำตามคำแนะนำในแอปพลิเคชันเพื่อสำรวจฟีเจอร์ต่าง ๆ
-
-## คำสั่ง
-
-คำสั่งต่อไปนี้สามารถใช้ได้ในโปรเจกต์:
-
-- **`ng serve`**: รันเซิร์ฟเวอร์สำหรับพัฒนา
-- **`ng build`**: สร้างแอปพลิเคชันสำหรับการใช้งานจริง
-- **`ng test`**: รันการทดสอบแบบยูนิต
-- **`ng lint`**: รันการตรวจสอบโค้ด
-- **`ng g c <component-name>`**: สร้างคอมโพเนนต์ (Component)
-
-## การพัฒนา
-
-โปรเจกต์นี้ถูกสร้างด้วย [Angular CLI](https://github.com/angular/angular-cli) คุณสามารถใช้คำสั่ง Angular CLI เพื่อจัดการและพัฒนาแอปพลิเคชัน
-
-### ข้อกำหนดเบื้องต้น
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งสิ่งต่อไปนี้:
-
-- Node.js (เวอร์ชัน 16 หรือสูงกว่า)
-- Angular CLI (เวอร์ชัน 15 หรือสูงกว่า)
-
-### การสร้างสำหรับการใช้งานจริง
-
-เพื่อสร้างโปรเจกต์สำหรับการใช้งานจริง ใช้คำสั่งต่อไปนี้:
-
-```bash
-ng build --prod
-```
-
-ผลลัพธ์จะอยู่ในไดเรกทอรี `dist/`.
-
-## สัญญาอนุญาต
-
-โปรเจกต์นี้อยู่ภายใต้สัญญาอนุญาตแบบ [MIT License](LICENSE).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
